@@ -14,8 +14,8 @@ void main()
 	char* ret = strstr(str,needle);
 	char* ret1 = strstr(str,needle1);
 	if(ret==NULL && ret1==NULL)
-	printf("Sorry! Sorry!");
+	printf("Good luck!");
 	else
-	printf("Good Luck!");
+	printf("Sorry, sorry!");
 	
 }
