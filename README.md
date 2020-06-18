@@ -23,3 +23,5 @@ The binary number will be in string format, with the maximum length being 100 ch
 Sorry, sorry!
 
 Since the binary number given has six consecutive 1s, little Jhool tells the man that he's going to have a bad time!
+
+This will be lot faster if we use the concept of binary search.
