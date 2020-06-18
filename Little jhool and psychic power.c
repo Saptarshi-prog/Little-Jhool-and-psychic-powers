@@ -9,28 +9,13 @@ void main()
 	int a,b,i,count=0;
 	scanf("%s", str);
 	a=strlen(str);
-
-	for(i=0;i<a;i++)
-	{
-		if (str[i] == str[i+1])
-		{
-			count++;
-			if(count==6)
-			{
-			    break;
-			}
-		}
-		 
-	}
-	if (count ==6 )
-	{
-		printf("Sorry, sorry!");
-	}
+	const char needle[10] = "000000";
+	const char needle1[10] = "111111";
+	char* ret = strstr(str,needle);
+	char* ret1 = strstr(str,needle1);
+	if(ret==NULL && ret1==NULL)
+	printf("Sorry! Sorry!");
 	else
-	{
-		printf("Good luck!");
-	}
+	printf("Good Luck!");
 	
-
-
 }
